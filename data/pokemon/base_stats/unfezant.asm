@@ -1,6 +1,6 @@
 	db UNFEZANT ; 063
 
-	db  80, 155,  80,  93,  65,  55
+	db  80, 115,  80,  93,  65,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, FLYING ; type
