@@ -1182,6 +1182,7 @@ KirliaEvosAttacks:
 GardevoirEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, MOONBLAST
+	db 1, AURA_SPHERE
 	db 1, GROWL
 	db 1, CONFUSION
 	db 1, DOUBLE_TEAM
