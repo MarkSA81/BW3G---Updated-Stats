@@ -138,6 +138,7 @@ EmboarEvosAttacks:
 	db 1, TAIL_WHIP
 	db 1, EMBER
 	db 1, DEFENSE_CURL
+	db 1, SCALD
 	db 3, TAIL_WHIP
 	db 7, EMBER
 	db 13, DEFENSE_CURL
