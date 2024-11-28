@@ -65,8 +65,8 @@ SnivyPokeBallScript:
 	iftrue LookAtPokeBallScript
 	turnobject MARLONS_WIFE, UP
 	refreshscreen
-	pokepic SNIVY
-	cry SNIVY
+	pokepic DRATINI
+	cry DRATINI
 	waitbutton
 	closepokepic
 	opentext
@@ -78,12 +78,12 @@ SnivyPokeBallScript:
 	writetext ChoseStarterText1
 	buttonsound
 	waitsfx
-	pokenamemem SNIVY, MEM_BUFFER_0
+	pokenamemem DRATINI, MEM_BUFFER_0
 	writetext ReceivedStarterText1
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke SNIVY, 5, BERRY
+	givepoke DRATINI, 5, BERRY
 	closetext
 	checkcode VAR_FACING
 	ifequal RIGHT, .SnivyMovementRight
@@ -98,8 +98,8 @@ TepigPokeBallScript:
 	iftrue LookAtPokeBallScript
 	turnobject MARLONS_WIFE, RIGHT
 	refreshscreen
-	pokepic TEPIG
-	cry TEPIG
+	pokepic LARVITAR
+	cry LARVITAR
 	waitbutton
 	closepokepic
 	opentext
@@ -111,12 +111,12 @@ TepigPokeBallScript:
 	writetext ChoseStarterText1
 	buttonsound
 	waitsfx
-	pokenamemem TEPIG, MEM_BUFFER_0
+	pokenamemem LARVITAR, MEM_BUFFER_0
 	writetext ReceivedStarterText1
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TEPIG, 5, BERRY
+	givepoke LARVITAR, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTepigMovement
 	jump WifeDirectionsScript
@@ -126,8 +126,8 @@ OshawottPokeBallScript:
 	iftrue LookAtPokeBallScript
 	turnobject MARLONS_WIFE, RIGHT
 	refreshscreen
-	pokepic OSHAWOTT
-	cry OSHAWOTT
+	pokepic BELDUM
+	cry BELDUM
 	waitbutton
 	closepokepic
 	opentext
@@ -139,12 +139,12 @@ OshawottPokeBallScript:
 	writetext ChoseStarterText1
 	buttonsound
 	waitsfx
-	pokenamemem OSHAWOTT, MEM_BUFFER_0
+	pokenamemem BELDUM, MEM_BUFFER_0
 	writetext ReceivedStarterText1
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke OSHAWOTT, 5, BERRY
+	givepoke BELDUM, 5, BERRY
 	closetext
 	checkcode VAR_FACING
 	ifequal LEFT, .OshawottMovementLeft
@@ -334,20 +334,20 @@ WifeText_FindMarlon:
 	
 TakeSnivyText:
 	text "You'll take"
-	line "SNIVY, the"
-	cont "grass #MON?"
+	line "DRATINI, the"
+	cont "dragon #MON?"
 	done
 
 TakeTepigText:
 	text "Do you want"
 	line "TEPIG, the"
-	cont "fire #MON?"
+	cont "rock #MON?"
 	done
 
 TakeOshawottText:
 	text "So, you like"
-	line "OSHAWOTT, the"
-	cont "water #MON?"
+	line "BELDUM, the"
+	cont "steel #MON?"
 	done
 
 DidntChooseStarterText1:
