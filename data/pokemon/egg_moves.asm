@@ -312,7 +312,7 @@ GastlyEggMoves:
 	db ICE_PUNCH
 	db PERISH_SONG
 	db SCARY_FACE
-	db THUNDERPUNCH
+	db THUNDER_PUNCH
 	db -1 ; end
 
 LitwickEggMoves:
