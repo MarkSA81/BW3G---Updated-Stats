@@ -284,7 +284,7 @@ MedititeEggMoves:
 	db FORESIGHT
 	db ICE_PUNCH
 	db PSYCHO_CUT
-	db THUNDERPUNCH
+	db THUNDER_PUNCH
 	db -1 ; end
 
 HoundourEggMoves:
