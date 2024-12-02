@@ -519,7 +519,7 @@ ScraggyEggMoves:
 	db FAINT_ATTACK
 	db FIRE_PUNCH
 	db ICE_PUNCH
-	db THUNDERPUNCH
+	db THUNDER_PUNCH
 	db ZEN_HEADBUTT
 	db -1 ; end
 
