@@ -2823,7 +2823,7 @@ ElekidEvosAttacks:
 	db 19, THUNDER_WAVE
 	db 22, SPARK ; Electro Ball
 	db 26, LIGHT_SCREEN
-	db 29, THUNDERPUNCH
+	db 29, THUNDER_PUNCH
 	db 33, DISCHARGE
 	db 36, SCREECH
 	db 40, THUNDERBOLT
@@ -2842,7 +2842,7 @@ ElectabuzzEvosAttacks:
 	db 19, THUNDER_WAVE
 	db 22, SPARK ; Electro Ball
 	db 26, LIGHT_SCREEN
-	db 29, THUNDERPUNCH
+	db 29, THUNDER_PUNCH
 	db 36, DISCHARGE
 	db 42, SCREECH
 	db 49, THUNDERBOLT
@@ -2863,7 +2863,7 @@ ElectivireEvosAttacks:
 	db 19, THUNDER_WAVE
 	db 22, SPARK ; Electro Ball
 	db 26, LIGHT_SCREEN
-	db 29, THUNDERPUNCH
+	db 29, THUNDER_PUNCH
 	db 36, DISCHARGE
 	db 42, SCREECH
 	db 49, THUNDERBOLT
@@ -2911,7 +2911,7 @@ MagmarEvosAttacks:
 
 MagmortarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERPUNCH
+	db 1, THUNDER_PUNCH
 	db 1, TACKLE ; Smog
 	db 1, LEER
 	db 1, EMBER
