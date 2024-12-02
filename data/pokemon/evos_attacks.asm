@@ -1312,7 +1312,7 @@ FlaaffyEvosAttacks:
 
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERPUNCH
+	db 1, THUNDER_PUNCH
 	db 1, ZAP_CANNON
 	db 1, DRAGON_PULSE
 	db 1, FIRE_PUNCH
@@ -1327,7 +1327,7 @@ AmpharosEvosAttacks:
 	db 20, TAKE_DOWN
 	db 25, SHOCK_WAVE ; Electro Ball
 	db 29, CONFUSE_RAY
-	db 29, THUNDERPUNCH
+	db 29, THUNDER_PUNCH
 	db 35, POWER_GEM
 	db 40, DISCHARGE
 	db 46, REFLECT ; Cotton Guard
