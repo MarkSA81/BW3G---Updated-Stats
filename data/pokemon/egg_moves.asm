@@ -284,7 +284,7 @@ MedititeEggMoves:
 	db FORESIGHT
 	db ICE_PUNCH
 	db PSYCHO_CUT
-	db THUNDER_PUNCH
+	db THUNDERPUNCH
 	db -1 ; end
 
 HoundourEggMoves:
@@ -312,7 +312,7 @@ GastlyEggMoves:
 	db ICE_PUNCH
 	db PERISH_SONG
 	db SCARY_FACE
-	db THUNDER_PUNCH
+	db THUNDERPUNCH
 	db -1 ; end
 
 LitwickEggMoves:
@@ -472,7 +472,7 @@ MagbyEggMoves:
 	db KARATE_CHOP
 	db MACH_PUNCH
 	db SCREECH
-	db THUNDER_PUNCH
+	db THUNDERPUNCH
 	db -1 ; end
 
 SandileEggMoves:
@@ -519,7 +519,7 @@ ScraggyEggMoves:
 	db FAINT_ATTACK
 	db FIRE_PUNCH
 	db ICE_PUNCH
-	db THUNDER_PUNCH
+	db THUNDERPUNCH
 	db ZEN_HEADBUTT
 	db -1 ; end
 
@@ -855,6 +855,9 @@ DeinoEggMoves:
 	db ICE_FANG
 	db SCREECH
 	db THUNDER_FANG
+	db -1 ; end
+
+NoEggMoves:
 	db -1 ; end
 
 NoEggMoves:
