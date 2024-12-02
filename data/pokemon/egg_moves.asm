@@ -472,7 +472,7 @@ MagbyEggMoves:
 	db KARATE_CHOP
 	db MACH_PUNCH
 	db SCREECH
-	db THUNDERPUNCH
+	db THUNDER_PUNCH
 	db -1 ; end
 
 SandileEggMoves:
