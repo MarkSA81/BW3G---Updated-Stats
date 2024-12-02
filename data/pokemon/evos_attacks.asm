@@ -1312,7 +1312,7 @@ FlaaffyEvosAttacks:
 
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDER_PUNCH
+	db 1, THUNDERPUNCH
 	db 1, ZAP_CANNON
 	db 1, DRAGON_PULSE
 	db 1, FIRE_PUNCH
@@ -1327,7 +1327,7 @@ AmpharosEvosAttacks:
 	db 20, TAKE_DOWN
 	db 25, SHOCK_WAVE ; Electro Ball
 	db 29, CONFUSE_RAY
-	db 29, THUNDER_PUNCH
+	db 29, THUNDERPUNCH
 	db 35, POWER_GEM
 	db 40, DISCHARGE
 	db 46, REFLECT ; Cotton Guard
@@ -1806,7 +1806,7 @@ MedichamEvosAttacks:
 	db 1, ZEN_HEADBUTT
 	db 1, FIRE_PUNCH
 	db 1, ICE_PUNCH
-	db 1, THUNDER_PUNCH
+	db 1, THUNDERPUNCH
 	db 1, DEFENSE_CURL ; Bide
 	db 1, DOUBLESLAP ; Meditate
 	db 1, CONFUSION
@@ -2823,7 +2823,7 @@ ElekidEvosAttacks:
 	db 19, THUNDER_WAVE
 	db 22, SPARK ; Electro Ball
 	db 26, LIGHT_SCREEN
-	db 29, THUNDER_PUNCH
+	db 29, THUNDERPUNCH
 	db 33, DISCHARGE
 	db 36, SCREECH
 	db 40, THUNDERBOLT
@@ -2842,7 +2842,7 @@ ElectabuzzEvosAttacks:
 	db 19, THUNDER_WAVE
 	db 22, SPARK ; Electro Ball
 	db 26, LIGHT_SCREEN
-	db 29, THUNDER_PUNCH
+	db 29, THUNDERPUNCH
 	db 36, DISCHARGE
 	db 42, SCREECH
 	db 49, THUNDERBOLT
@@ -2863,7 +2863,7 @@ ElectivireEvosAttacks:
 	db 19, THUNDER_WAVE
 	db 22, SPARK ; Electro Ball
 	db 26, LIGHT_SCREEN
-	db 29, THUNDER_PUNCH
+	db 29, THUNDERPUNCH
 	db 36, DISCHARGE
 	db 42, SCREECH
 	db 49, THUNDERBOLT
@@ -2911,7 +2911,7 @@ MagmarEvosAttacks:
 
 MagmortarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDER_PUNCH
+	db 1, THUNDERPUNCH
 	db 1, TACKLE ; Smog
 	db 1, LEER
 	db 1, EMBER
@@ -5048,7 +5048,7 @@ DragoniteEvosAttacks:
 	db 1, WING_ATTACK
 	db 1, HURRICANE
 	db 1, FIRE_PUNCH
-	db 1, THUNDER_PUNCH
+	db 1, THUNDERPUNCH
 	db 1, WRAP
 	db 1, LEER
 	db 1, THUNDER_WAVE
