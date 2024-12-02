@@ -5048,7 +5048,7 @@ DragoniteEvosAttacks:
 	db 1, WING_ATTACK
 	db 1, HURRICANE
 	db 1, FIRE_PUNCH
-	db 1, THUNDERPUNCH
+	db 1, THUNDER_PUNCH
 	db 1, WRAP
 	db 1, LEER
 	db 1, THUNDER_WAVE
