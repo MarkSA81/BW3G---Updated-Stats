@@ -1806,7 +1806,7 @@ MedichamEvosAttacks:
 	db 1, ZEN_HEADBUTT
 	db 1, FIRE_PUNCH
 	db 1, ICE_PUNCH
-	db 1, THUNDERPUNCH
+	db 1, THUNDER_PUNCH
 	db 1, DEFENSE_CURL ; Bide
 	db 1, DOUBLESLAP ; Meditate
 	db 1, CONFUSION
